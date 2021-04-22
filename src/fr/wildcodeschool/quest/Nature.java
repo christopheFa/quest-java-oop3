@@ -1,3 +1,5 @@
+package fr.wildcodeschool.quest;
+
 public class Nature {
 
     public static void main(String[] args) {
@@ -11,17 +13,15 @@ public class Nature {
         pingou.swimUp(1);
         pingou.getOut();
 
-        Eagle hawkeye = new Eagle("Hawkeye");
+        Eagle hawkeye = new Eagle("Eye Cherry");
         // TODO : uncomment the following code in order to test it
-        /*
         hawkeye.takeOff();
-        hawkeye.ascend(120);
-        hawkeye.ascend(30);
+        hawkeye.flyUpward(120);
+        hawkeye.flyUpward(30);
         hawkeye.glide();
-        hawkeye.descend(140);
-        hawkeye.land();
-        hawkeye.descend(9);
-        hawkeye.land();
-        */
+        hawkeye.flyDownward(140);
+        hawkeye.landing();
+        hawkeye.flyDownward(9);
+        hawkeye.landing();
     }
 }

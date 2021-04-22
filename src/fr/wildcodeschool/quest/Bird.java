@@ -1,3 +1,5 @@
+package fr.wildcodeschool.quest;
+
 public abstract class Bird {
   
     // attributes  

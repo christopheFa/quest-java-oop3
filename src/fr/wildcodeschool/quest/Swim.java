@@ -1,3 +1,5 @@
+package fr.wildcodeschool.quest;
+
 public interface Swim {
 
     void dive();
